@@ -3,15 +3,17 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Version>8.0.1</Version>
-    <AssemblyVersion>8.0.0.1</AssemblyVersion>
+    <RootNamespace>Scs.AspNetCore.Identity</RootNamespace>
     <PackageId>Scs.AspNetCore.Identity</PackageId>
     <OutputType>Library</OutputType>
   </PropertyGroup>
-  
-  <ItemGroup>
-    <FrameworkReference Include="Microsoft.AspNetCore.App" />
-  </ItemGroup>
+
+  <PropertyGroup>
+    <Version>8.0.1</Version>
+    <AssemblyVersion>8.0.1.0</AssemblyVersion>
+    <InformationalVersion>8.0.1</InformationalVersion>
+    <FileVersion>8.0.1.0</FileVersion>
+  </PropertyGroup>
 
   <ItemGroup>
     <None Remove="Validators\CommonPasswordValidator\PasswordLists\10_million_password_list_top_100.txt" />
@@ -31,5 +33,7 @@
 
   <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection" Version="8.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="8.0.8" />
   </ItemGroup>
 </Project>
