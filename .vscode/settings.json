@@ -1,5 +1,7 @@
 {
     "cSpell.ignoreWords": [
+        "Encryptor",
+        "HMACSHA",
         "Hasher",
         "hashset"
     ]
