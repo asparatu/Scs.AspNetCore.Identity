@@ -1,0 +1,11 @@
+<Project>
+    <PropertyGroup>
+        <Authors>Shane Saunders</Authors>
+        <Company>Saunders Creative Strategies (SCS)</Company>
+        <Copyright>Copyright © 2023-2024. Saunders Creative Strategies (SCS). All Rights Reserved.</Copyright>
+        <IncludeSymbols>true</IncludeSymbols>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <RepositoryType>git</RepositoryType>
+    </PropertyGroup>
+</Project>
