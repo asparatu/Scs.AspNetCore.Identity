@@ -20,10 +20,15 @@
         <PackageIcon>scs-logo-600x600.png</PackageIcon>
         <PackageIconUrl>http://asparatu.net/images/scs-logo-600x600.png</PackageIconUrl>
 
+        <PackageReadmeFile>readme.md</PackageReadmeFile>
+        <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+
         <NoWarn>CS1591</NoWarn>
     </PropertyGroup>
 
     <ItemGroup>
-        <None Include="images/scs-logo-600x600.png" Pack="true" PackagePath="\"/>
+        <None Include="../../images/scs-logo-600x600.png" Pack="true" PackagePath="\" />
+        <None Include="../../docs/readme.md" Pack="true" PackagePath="\" />
+        <None Include="../../licenses/LICENSE.txt" Pack="true" PackagePath="" />
     </ItemGroup>
 </Project>
