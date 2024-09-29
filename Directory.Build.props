@@ -3,9 +3,27 @@
         <Authors>Shane Saunders</Authors>
         <Company>Saunders Creative Strategies (SCS)</Company>
         <Copyright>Copyright © 2023-2024. Saunders Creative Strategies (SCS). All Rights Reserved.</Copyright>
-        <IncludeSymbols>true</IncludeSymbols>
+
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        
+        <PackageProjectUrl>https://github.com/asparatu/Scs.AspNetCore.Identity</PackageProjectUrl>
+        <PackageTags>identity;aspnetcore;BCrypt;hasher</PackageTags>
+
+        <RepositoryUrl>https://github.com/asparatu/Scs.AspNetCore.Identity.git</RepositoryUrl>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
         <RepositoryType>git</RepositoryType>
+        
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        
+        <PackageIcon>scs-logo-600x600.png</PackageIcon>
+        <PackageIconUrl>http://asparatu.net/images/scs-logo-600x600.png</PackageIconUrl>
+
+        <NoWarn>CS1591</NoWarn>
     </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="images/scs-logo-600x600.png" Pack="true" PackagePath="\"/>
+    </ItemGroup>
 </Project>
