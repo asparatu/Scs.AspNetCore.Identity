@@ -29,6 +29,6 @@
     <ItemGroup>
         <None Include="../../images/scs-logo-600x600.png" Pack="true" PackagePath="\" />
         <None Include="../../docs/readme.md" Pack="true" PackagePath="\" />
-        <None Include="../../licenses/LICENSE.txt" Pack="true" PackagePath="" />
+        <None Include="../../LICENSE" Pack="true" PackagePath="" />
     </ItemGroup>
 </Project>
